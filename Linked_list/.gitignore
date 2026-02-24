@@ -1,0 +1,11 @@
+# Compiled files
+*.out
+a.out
+*.exe
+
+# VS Code settings
+.vscode/
+
+# Input/output files
+input.txt
+output.txt
