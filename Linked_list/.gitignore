@@ -1,11 +1,18 @@
-# Compiled files
+# Compiled binaries
 *.out
-a.out
 *.exe
+a.out
+*.o
 
-# VS Code settings
+# macOS junk
+.DS_Store
+
+# Debug files (Mac)
+*.dSYM/
+
+# VS Code
 .vscode/
 
-# Input/output files
+# Input/output test files
 input.txt
 output.txt
