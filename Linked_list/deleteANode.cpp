@@ -1,9 +1,12 @@
 /*
-Problem Statement: Given a linked list and an integer value val, insert a new node with that value at the beginning (before the head) of the list 
-and return the updated linked list.
+Problem Statement: There is a singly-linked list head and we want to delete a node node in it.
+You are given the node to be deleted node. You will not be given access to the first node of head.
+All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.
 
-Input: 0->1->2, val = 5 
-Output: 5->0->1->2
+Delete the given node
+
+Input: head = [4,5,1,9], node = 5
+Output: [4,1,9]
 
 
 */
