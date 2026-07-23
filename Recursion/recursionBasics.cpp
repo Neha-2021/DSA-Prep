@@ -30,6 +30,21 @@ bool isPalindrome(string s, int i, int j) {
     return isPalindrome(s, i+1, j-1);
 }
 
+int fibonacci(int n, int prev1, int prev2) {
+    if(n==0) return 0;
+    if(n==1) return 1;
+
+    int curr = prev1 + prev2;
+    cout << curr << "   ";
+    return fibonacci(n-1, prev2, curr);
+}
+
+int factorial(int n) {
+    if(n==0) return 1;
+
+    return n*factorial(n-1);
+}
+
 int main() {
     vector<int> nums = {1, 2, 3, 4, 5, 6};
 
@@ -60,6 +75,17 @@ int main() {
     cout << "Is " << str3 << " a palindrome: " << (ans3 == 0 ? "NO" : "YES") << "\n";
     cout << "\n";
 
+    // 4. Fibonacci series
+    int n=6;
+    cout << "Fibonacci series of " << n << "\n";
+    fibonacci(n, 0, 1);
+    cout << "\n";
+
+    // 5. Factorial
+    int N=5;
+    int ans = factorial(N);
+    cout << "\n" << "Factorail of " << N << " is : " << ans <<"\n";
+    cout << "\n";
     return 0;
 }
 
