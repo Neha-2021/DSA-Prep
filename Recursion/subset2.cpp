@@ -18,6 +18,11 @@ Constraints:
 -10 <= nums[i] <= 10
 */
 
+/*
+Brute force apporach can be find all subsets of the input array and storing it in set to avoid duplicates.
+Then convert set to vector for final result.
+*/
+
 #include<stdio.h>
 #include<iostream>
 using namespace std;
