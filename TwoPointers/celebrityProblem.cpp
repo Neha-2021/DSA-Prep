@@ -79,6 +79,16 @@ int main() {
     cout << "celebrityOptimized:1. Celebrity is person: " << celebrity(nums1) << "\n";
     cout << "celebrityOptimized:2. Celebrity is person: " << celebrity(nums2) << "\n";
     cout << "celebrityOptimized:3. Celebrity is person: " << celebrity(nums3) << "\n";
+    
+    /*
+    Output:
+    celebrityBruteForce:1. Celebrity is person: 1
+    celebrityBruteForce:2. Celebrity is person: -1
+    celebrityBruteForce:3. Celebrity is person: 1
+    celebrityOptimized:1. Celebrity is person: 1
+    celebrityOptimized:2. Celebrity is person: -1
+    celebrityOptimized:3. Celebrity is person: 1
+    */
 
     return 0;
 }
