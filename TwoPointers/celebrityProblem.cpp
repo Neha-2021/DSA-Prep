@@ -70,12 +70,15 @@ int celebrity(vector<vector<int>> &M){
 int main() {
     vector<vector<int>> nums1 = {{0, 1, 1, 0}, {0, 0, 0, 0}, {1, 1, 0, 0}, {0, 1, 1, 0}};
     vector<vector<int>> nums2 = {{0, 1}, {1, 0} };
+    vector<vector<int>> nums3 = {{0, 1, 0}, {0, 0, 0}, {0, 1, 0}};
 
     cout << "celebrityBruteForce:1. Celebrity is person: " << celebrityBruteForce(nums1) << "\n";
     cout << "celebrityBruteForce:2. Celebrity is person: " << celebrityBruteForce(nums2) << "\n";
+    cout << "celebrityBruteForce:3. Celebrity is person: " << celebrityBruteForce(nums3) << "\n";
 
     cout << "celebrityOptimized:1. Celebrity is person: " << celebrity(nums1) << "\n";
     cout << "celebrityOptimized:2. Celebrity is person: " << celebrity(nums2) << "\n";
+    cout << "celebrityOptimized:3. Celebrity is person: " << celebrity(nums3) << "\n";
 
     return 0;
 }
